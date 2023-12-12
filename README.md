@@ -54,4 +54,27 @@ This is a complete GitHub course by Ubaid Shah
 
   and add some lines in it.
 
+## Step 6: Add files in Staging area
+- Add all modified and new files to the staging area.
+
+  `git add .`
+
+  now check the git status, it will show *Changes to be committed* message with new and modified file names
+
+-  if you want to add only a specific file to staging area then type
+
+  `git add filename`
+
+- if you want to unstage all files after staging then type
+  `git restore --staged .`    -- it is for all staged files
+
+  `git restore --staged file1 file2 ...... `  -- it is for specific files
+
+-  After modifying all files it is mandetory to add it to staging area for commit
+
+## Step 7: Commit the changes
+- Now commit the changes
+  
+  `git commit -m "message"`
+
 
